@@ -1,12 +1,9 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import About from './components/About'
-import Articles from './components/Articles'
-import Footer from './components/Footer'
+import Header from "./components/Header"
+import About from "./components/About"
+import Articles from "./components/Articles"
+import Footer from "./components/Footer"
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
       <Header />
@@ -16,5 +13,3 @@ function App() {
     </>
   )
 }
-
-export default App

@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* Typography */
+h1,h2{
+  font-weight: 400;
+}
+.accent-text{
+  display: block;
+  font-weight: bold;
+}
+h1 .accent-text{
+  font-size: 3.75rem;
+}
+h2 .accent-text{
+  font-size: 2.625rem;
+}
+small{
+  font-size: 1rem;
+}
+/* Layout */
+header, footer{
+  background-color: rebeccapurple;
+  color: whitesmoke;
+}
+.about-section{
+  background-color: plum;
+}
+.articles-section{
+  background-color: lavenderblush;
+}
+p{
+  margin: 8px auto;
+  width: 66%;
+}
+a{
+  color: rebeccapurple;
+  font-weight: bold;
+}
+/* Utility */
+.btn{
+  display: inline-block;
+  background-color: rebeccapurple;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  color: whitesmoke;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.btn:hover,
+.btn:focus{
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.5);
+
+}
+.pad{
+  padding: 25px 0;
+}
