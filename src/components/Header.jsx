@@ -1,7 +1,19 @@
 export default function Header() {
-    return (
-        <header className="pad">
-            <h1>Hello, my name is <span className="accent-text">Katherine</span></h1>
+    return <>
+        <header className="head">
+            <p>Logo</p>
+            <h1>Reed Development</h1>
+            <p className="menu">Menu</p>
+            <nav className="navbar">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                    <li>About</li>
+                </ul>
+            </nav>
+            <p>Dark Mode</p>
         </header>
-    )
+    </>
 }

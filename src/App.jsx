@@ -1,14 +1,14 @@
 import Header from "./components/Header"
-import About from "./components/About"
-import Articles from "./components/Articles"
+import Main from "./components/Main"
+import Aside from "./components/Aside"
 import Footer from "./components/Footer"
 
 export default function App() {
   return (
     <>
       <Header />
-      <About />
-      <Articles />
+      <Main />
+      <Aside />
       <Footer />
     </>
   )
