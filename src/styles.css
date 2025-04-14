@@ -198,10 +198,6 @@ table {
   text-align: center;
 }
 
-.tcw {
-  color: var(--white);
-}
-
 /* Typography */
 h2,
 h3,
@@ -246,14 +242,16 @@ body {
   line-height: var(--lh);
   margin: var(--center);
   min-height: 100vh;
+  width: 780px;
 }
 
 .head {
-  background: var(--col4-darkest);
-  color: var(--white);
+  background: var(--col4-lightest);
+  color: var(--black);
   display: flex;
   grid-area: "head";
   justify-content: space-around;
+  padding: .25em;
 }
 
 .navbar {
@@ -271,7 +269,8 @@ body {
 }
 
 .content {
-  background: var(--col1-darker);
+  background: var(--col1-lightest);
+  color: var(--black);
   display: flex;
   flex-direction: column;
   grid-area: "main";
@@ -284,22 +283,22 @@ body {
 }
 
 #service1 {
-  background: var(--colour2);
+  background: var(--col2-lightest);
   grid-area: "ser1";
 }
 
 #service2 {
-  background: var(--colour3);
+  background: var(--col3-lightest);
   grid-area: "ser2";
 }
 
 #service3 {
-  background: var(--colour4);
+  background: var(--col4-lightest);
   grid-area: "ser3";
 }
 
 #service4 {
-  background: var(--colour5);
+  background: var(--col5-lightest);
   grid-area: "ser4";
 }
 
@@ -410,4 +409,62 @@ textarea {
 .text {
   margin: 0 auto;
   padding: 0;
+}
+@media (min-width: 480px) {
+  .head {
+    background: var(--col4-lighter);
+  }
+
+  .content {
+    background: var(--col1-lighter);
+  }
+
+  #service1 {
+    background: var(--col2-lighter);
+    color: var(--white);
+  }
+
+  #service2 {
+    background: var(--col3-lighter);
+    color: var(--white);
+  }
+
+  #service3 {
+    background: var(--col4-lighter);
+  }
+
+  #service4 {
+    background: var(--col5-lighter);
+  }
+}
+@media (min-width: 480px) {
+  .head {
+    background: var(--col4-darkest);
+    color: var(--white);
+  }
+
+  .content {
+    background: var(--col1-darker);
+    color: var(--white);
+  }
+
+  #service1 {
+    background: var(--colour2);
+    color: var(--white);
+  }
+
+  #service2 {
+    background: var(--colour3);
+    color: var(--white);
+  }
+
+  #service3 {
+    background: var(--colour4);
+    color: var(--white);
+  }
+
+  #service4 {
+    background: var(--colour5);
+    color: var(--white);
+  }
 }

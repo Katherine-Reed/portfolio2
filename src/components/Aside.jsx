@@ -1,14 +1,14 @@
 export default function Aside() {
     return <>
-        <section id="service1" class="tcw">
+        <section id="service1">
             <h3>Accessability Audits</h3>
             <p>We thoroughly examine your website to identify any accessibility issues to ensure your site meets WCAG guidelines.</p>
         </section>
-        <section id="service2" class="tcw">
+        <section id="service2">
             <h3>Consulting</h3>
             <p>Get professional guidance on best practices for web accessibility from an accredited Web Accessibility Consultant.</p>
         </section>
-        <section id="service3" class="tcw">
+        <section id="service3">
             <h3>Training</h3>
             <p>Tailored training sessions and workshops to educate your team on accessibility standards.</p>
         </section>
